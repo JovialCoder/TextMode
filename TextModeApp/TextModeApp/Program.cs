@@ -10,6 +10,15 @@ namespace TextModeApp
     {
         static void Main(string[] args)
         {
+            
+            GameWorld.StartGame();
+            GameWorld.CreateCharacter();
+            GameWorld.ListRoom("The air is slightly stale.");
+            GameWorld.ParseInput();
+
+            
         }
+
+        
     }
 }
